@@ -1,0 +1,8 @@
+build:
+  python_version: "3.8"
+  python_packages:
+    - pytorch==1.4.0
+  system_packages:
+    - "ffmpeg"
+    - "libavcodec-dev"
+predict: "predict.py:Predictor"
